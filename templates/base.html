@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<head>
+	<title>Flask World</title>
+	<meta charset="utf-8">
+	<!-- ************************************************************************* -->
+
+	<!-- Latest compiled and minified CSS -->
+	
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link href="{{ url_for('static', filename='css/bootstrap.min.css')}}"   rel="stylesheet" >
+<link href="{{ url_for('static', filename='css/bootstrap-theme.css')}}" rel="stylesheet" >
+<link rel="icon" href="{{ url_for('static', filename='images/flecheicone.ico')}}" >
+<link  href="{{ url_for('static', filename= 'css/main.css') }}"  rel="stylesheet" >
+
+<!-- ************************************************************************* -->
+<!-- ************** NAVBAR *************************************************** -->
+<!-- ************************************************************************* -->
+  	<div class="container"  >
+    	<div class="row" align: "center">
+    		<div class="col-lg-12">
+    			<ul class="nav navbar-nav">	
+    				<li class"active"> <a href="#">Racine</a></li>
+    				<li> <a href="#">Docus</a></li>
+    				<li> <a href="#">Films</a></li>
+    				<li> <a href="#">Podcast</a></li>
+    				<li> <a  class="dropdown-toggle" href="#" data-toggle="dropdown" >Librairies <span class="caret"></span></a>
+    					 <ul class="dropdown-menu"> 
+    						<li> <a href="#">Vidéos</a></li>
+    						<li> <a href="#">Films</a></li>
+    						<li> <a href="#">Livres</a></li>
+    					</ul>
+    				</li>
+    				<li> <a href='/shut'>Blu-Ray</a></li>
+    					
+
+    			</ul>
+        	</div>	
+
+        	
+		</div>	
+        				
+
+    </div><!-- /.container-fluid -->
+
+<!-- ************************************************************************* -->
+	
+</head>
+
+
+
+
+
+<body class="body bg-vert"  >
+
+
+
+
+
+	<section class="col-md-6 blanc" align: "left" >
+		{%block body%} 
+
+		{% endblock %}  
+	</section>
+
+
+
+
+
+
+
+
+    <!-- jQuery -->
+    <script src="{{ url_for('static', filename= 'js/jquery.js') }}"></script>
+    
+    <!-- Bootstrap Core JavaScript -->
+    <script src="{{ url_for('static',filename='js/bootstrap.min.js') }}"></script>
+</body>
+</html>

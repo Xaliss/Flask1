@@ -1,0 +1,60 @@
+/*Mon repaire CSS perso*/
+
+.bg-cover{
+  background: url(../images/onarrive.jpg);
+  height: 300px;
+  background-size: cover;
+  color: #FFFFFF; 
+}
+
+.gris{
+  color: #c4c4c4;
+}
+
+.bg-vert{
+  background-color: #3A4033;
+
+}
+
+.bg-rouge{
+  background-color: #FF0000;
+
+}
+.or{
+  color: gold;
+
+}
+
+.blanc{
+  color: #f6f6f6;
+
+}
+.lavande{
+  color: #25a6d1;
+
+}
+.justifier{
+text-align: justify;
+ 
+
+}
+
+.coinrond25 {
+     
+    background-color: #3A4033;
+    padding: 20px; 
+    border: 1px white solid;
+
+ 
+}
+
+.fa {
+  background: #3A4033;
+  display: inline-block;
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
